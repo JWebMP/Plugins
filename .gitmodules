@@ -1,0 +1,3 @@
+[submodule "TypescriptClient"]
+	path = TypescriptClient
+	url = https://github.com/JWebMP/TypescriptClient.git
