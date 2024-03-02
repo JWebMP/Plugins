@@ -34,3 +34,9 @@
 [submodule "Toastr"]
 	path = Toastr
 	url = https://github.com/JWebMP/Toastr.git
+[submodule "WayPoints"]
+	path = WayPoints
+	url = https://github.com/JWebMP/WayPoints.git
+[submodule "JQueryUI"]
+	path = JQueryUI
+	url = https://github.com/JWebMP/JQueryUI.git
