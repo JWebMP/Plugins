@@ -19,3 +19,6 @@
 [submodule "PlusAsTab"]
 	path = PlusAsTab
 	url = https://github.com/JWebMP/PlusAsTab.git
+[submodule "Prettify"]
+	path = Prettify
+	url = https://github.com/JWebMP/Prettify.git
