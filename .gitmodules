@@ -40,3 +40,6 @@
 [submodule "JQueryUI"]
 	path = JQueryUI
 	url = https://github.com/JWebMP/JQueryUI.git
+[submodule "Bootstrap"]
+	path = Bootstrap
+	url = https://github.com/JWebMP/Bootstrap.git
