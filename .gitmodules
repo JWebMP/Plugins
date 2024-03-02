@@ -16,3 +16,6 @@
 [submodule "Modernizr"]
 	path = Modernizr
 	url = https://github.com/JWebMP/Modernizr.git
+[submodule "PlusAsTab"]
+	path = PlusAsTab
+	url = https://github.com/JWebMP/PlusAsTab.git
