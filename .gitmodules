@@ -10,3 +10,6 @@
 [submodule "Globalize"]
 	path = Globalize
 	url = https://github.com/JWebMP/Globalize.git
+[submodule "JQuery"]
+	path = JQuery
+	url = https://github.com/JWebMP/JQuery.git
