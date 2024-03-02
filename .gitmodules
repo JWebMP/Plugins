@@ -1,3 +1,6 @@
 [submodule "TypescriptClient"]
 	path = TypescriptClient
 	url = https://github.com/JWebMP/TypescriptClient.git
+[submodule "Angular"]
+	path = Angular
+	url = https://github.com/JWebMP/Angular.git
