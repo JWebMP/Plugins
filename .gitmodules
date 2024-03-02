@@ -31,3 +31,6 @@
 [submodule "SessionStorage"]
 	path = SessionStorage
 	url = https://github.com/JWebMP/SessionStorage.git
+[submodule "Toastr"]
+	path = Toastr
+	url = https://github.com/JWebMP/Toastr.git
