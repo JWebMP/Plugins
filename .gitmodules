@@ -13,3 +13,6 @@
 [submodule "JQuery"]
 	path = JQuery
 	url = https://github.com/JWebMP/JQuery.git
+[submodule "Modernizr"]
+	path = Modernizr
+	url = https://github.com/JWebMP/Modernizr.git

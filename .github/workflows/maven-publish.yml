@@ -1,4 +1,4 @@
-name: Typescript Client
+name: JWebMP Plugins
 on:
   workflow_dispatch:
     inputs:
@@ -44,6 +44,8 @@ jobs:
       GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
   EasingEffects:
     uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - TypescriptClient
     with:
       baseDir: 'EasingEffects/'
       name: 'Easing Effects'
@@ -57,6 +59,8 @@ jobs:
       GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
   Globalize:
     uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - TypescriptClient
     with:
       baseDir: 'Globalize/'
       name: 'Globalize'
@@ -70,9 +74,26 @@ jobs:
       GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
   JQuery:
     uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - TypescriptClient
     with:
       baseDir: 'JQuery/'
       name: 'JQuery'
+      publishToCentral: ${{inputs.centralRelease}}
+    secrets:
+      USERNAME: ${{secrets.USERNAME}}
+      USER_TOKEN: ${{secrets.USER_TOKEN}}
+      SONA_USERNAME: ${{secrets.SONA_USERNAME}}
+      SONA_PASSWORD: ${{secrets.SONA_PASSWORD}}
+      GPG_PASSPHRASE: ${{secrets.GPG_PASSPHRASE}}
+      GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
+  Modernizr:
+    uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - TypescriptClient
+    with:
+      baseDir: 'Modernizr/'
+      name: 'Modernizr'
       publishToCentral: ${{inputs.centralRelease}}
     secrets:
       USERNAME: ${{secrets.USERNAME}}
