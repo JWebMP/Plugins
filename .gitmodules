@@ -22,3 +22,6 @@
 [submodule "Prettify"]
 	path = Prettify
 	url = https://github.com/JWebMP/Prettify.git
+[submodule "Moment"]
+	path = Moment
+	url = https://github.com/JWebMP/Moment.git
