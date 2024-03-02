@@ -230,8 +230,8 @@ jobs:
       - TypescriptClient
       - Angular
     with:
-      baseDir: 'JQueryUI/'
-      name: 'JQueryUI'
+      baseDir: 'Bootstrap/'
+      name: 'Bootstrap'
       publishToCentral: ${{inputs.centralRelease}}
     secrets:
       USERNAME: ${{secrets.USERNAME}}
