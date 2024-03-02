@@ -4,3 +4,6 @@
 [submodule "Angular"]
 	path = Angular
 	url = https://github.com/JWebMP/Angular.git
+[submodule "EasingEffects"]
+	path = EasingEffects
+	url = https://github.com/JWebMP/EasingEffects.git
