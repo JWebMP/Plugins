@@ -7,3 +7,6 @@
 [submodule "EasingEffects"]
 	path = EasingEffects
 	url = https://github.com/JWebMP/EasingEffects.git
+[submodule "Globalize"]
+	path = Globalize
+	url = https://github.com/JWebMP/Globalize.git
