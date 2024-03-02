@@ -25,3 +25,9 @@
 [submodule "Moment"]
 	path = Moment
 	url = https://github.com/JWebMP/Moment.git
+[submodule "LocalStorage"]
+	path = LocalStorage
+	url = https://github.com/JWebMP/LocalStorage.git
+[submodule "SessionStorage"]
+	path = SessionStorage
+	url = https://github.com/JWebMP/SessionStorage.git
