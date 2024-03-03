@@ -64,3 +64,6 @@
 [submodule "DataTables-Bootstrap"]
 	path = DataTables-Bootstrap
 	url = https://github.com/JWebMP/DataTables-Bootstrap.git
+[submodule "WavesEffect"]
+	path = WavesEffect
+	url = https://github.com/JWebMP/WavesEffect.git
