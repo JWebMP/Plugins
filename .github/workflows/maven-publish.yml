@@ -271,7 +271,6 @@ jobs:
       SONA_PASSWORD: ${{secrets.SONA_PASSWORD}}
       GPG_PASSPHRASE: ${{secrets.GPG_PASSPHRASE}}
       GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
-
   FontAwesome:
     uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
     needs:
@@ -295,6 +294,55 @@ jobs:
     with:
       baseDir: 'FontAwesomePro/'
       name: 'FontAwesomePro'
+      publishToCentral: ${{inputs.centralRelease}}
+    secrets:
+      USERNAME: ${{secrets.USERNAME}}
+      USER_TOKEN: ${{secrets.USER_TOKEN}}
+      SONA_USERNAME: ${{secrets.SONA_USERNAME}}
+      SONA_PASSWORD: ${{secrets.SONA_PASSWORD}}
+      GPG_PASSPHRASE: ${{secrets.GPG_PASSPHRASE}}
+      GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
+  DataTables:
+    uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - JQuery
+      - Angular
+    with:
+      baseDir: 'DataTables/'
+      name: 'DataTables'
+      publishToCentral: ${{inputs.centralRelease}}
+    secrets:
+      USERNAME: ${{secrets.USERNAME}}
+      USER_TOKEN: ${{secrets.USER_TOKEN}}
+      SONA_USERNAME: ${{secrets.SONA_USERNAME}}
+      SONA_PASSWORD: ${{secrets.SONA_PASSWORD}}
+      GPG_PASSPHRASE: ${{secrets.GPG_PASSPHRASE}}
+      GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
+  DataTablesDefaultTheme:
+    uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - DataTables
+      - Angular
+    with:
+      baseDir: 'DataTables-DefaultTheme/'
+      name: 'DataTables Default Theme'
+      publishToCentral: ${{inputs.centralRelease}}
+    secrets:
+      USERNAME: ${{secrets.USERNAME}}
+      USER_TOKEN: ${{secrets.USER_TOKEN}}
+      SONA_USERNAME: ${{secrets.SONA_USERNAME}}
+      SONA_PASSWORD: ${{secrets.SONA_PASSWORD}}
+      GPG_PASSPHRASE: ${{secrets.GPG_PASSPHRASE}}
+      GPG_PRIVATE_KEY: ${{secrets.GPG_PRIVATE_KEY}}
+  DataTablesBootstrap:
+    uses: GuicedEE/Workflows/.github/workflows/projects.yml@master
+    needs:
+      - DataTables
+      - Angular
+      - Bootstrap
+    with:
+      baseDir: 'DataTables-Bootstrap/'
+      name: 'DataTables Bootstrap'
       publishToCentral: ${{inputs.centralRelease}}
     secrets:
       USERNAME: ${{secrets.USERNAME}}

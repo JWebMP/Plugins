@@ -55,3 +55,12 @@
 [submodule "FontAwesomePro"]
 	path = FontAwesomePro
 	url = https://github.com/JWebMP/FontAwesomePro.git
+[submodule "DataTables"]
+	path = DataTables
+	url = https://github.com/JWebMP/DataTables.git
+[submodule "DataTables-DefaultTheme"]
+	path = DataTables-DefaultTheme
+	url = https://github.com/JWebMP/DataTables-DefaultTheme.git
+[submodule "DataTables-Bootstrap"]
+	path = DataTables-Bootstrap
+	url = https://github.com/JWebMP/DataTables-Bootstrap.git
