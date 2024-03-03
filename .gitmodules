@@ -49,3 +49,9 @@
 [submodule "FullCalendarPro"]
 	path = FullCalendarPro
 	url = https://github.com/JWebMP/FullCalendarPro.git
+[submodule "FontAwesome"]
+	path = FontAwesome
+	url = https://github.com/JWebMP/FontAwesome.git
+[submodule "FontAwesomePro"]
+	path = FontAwesomePro
+	url = https://github.com/JWebMP/FontAwesomePro.git
