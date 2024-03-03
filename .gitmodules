@@ -43,3 +43,9 @@
 [submodule "Bootstrap"]
 	path = Bootstrap
 	url = https://github.com/JWebMP/Bootstrap.git
+[submodule "FullCalendar"]
+	path = FullCalendar
+	url = https://github.com/JWebMP/FullCalendar.git
+[submodule "FullCalendarPro"]
+	path = FullCalendarPro
+	url = https://github.com/JWebMP/FullCalendarPro.git
