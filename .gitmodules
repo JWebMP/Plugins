@@ -70,3 +70,9 @@
 [submodule "ChartJS"]
 	path = ChartJS
 	url = https://github.com/JWebMP/ChartJS.git
+[submodule "Gallery"]
+	path = Gallery
+	url = https://github.com/JWebMP/Gallery.git
+[submodule "FileUpload-JQuery"]
+	path = FileUpload-JQuery
+	url = https://github.com/JWebMP/FileUpload-JQuery.git
