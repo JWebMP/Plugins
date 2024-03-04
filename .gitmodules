@@ -67,3 +67,6 @@
 [submodule "WavesEffect"]
 	path = WavesEffect
 	url = https://github.com/JWebMP/WavesEffect.git
+[submodule "ChartJS"]
+	path = ChartJS
+	url = https://github.com/JWebMP/ChartJS.git
