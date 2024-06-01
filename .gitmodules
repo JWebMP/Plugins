@@ -76,3 +76,11 @@
 [submodule "FileUpload-JQuery"]
 	path = FileUpload-JQuery
 	url = https://github.com/JWebMP/FileUpload-JQuery.git
+[submodule "BootstrapAngular"]
+	path = BootstrapAngular
+	url = https://github.com/JWebMP/BootstrapAngular.git
+	branch = master
+[submodule "AngularForms"]
+	path = AngularForms
+	url = https://github.com/JWebMP/AngularForms.git
+	branch = master
