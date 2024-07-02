@@ -84,3 +84,6 @@
 	path = AngularForms
 	url = https://github.com/JWebMP/AngularForms.git
 	branch = master
+[submodule "AngularFileUpload"]
+	path = AngularFileUpload
+	url = https://github.com/GedMarc/AngularFileUpload.git
