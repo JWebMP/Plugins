@@ -87,3 +87,6 @@
 [submodule "AngularFileUpload"]
 	path = AngularFileUpload
 	url = https://github.com/GedMarc/AngularFileUpload.git
+[submodule "AngularMaterial"]
+	path = AngularMaterial
+	url = https://github.com/JWebMP/AngularMaterial.git
