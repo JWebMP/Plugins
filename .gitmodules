@@ -90,3 +90,6 @@
 [submodule "AngularMaterial"]
 	path = AngularMaterial
 	url = https://github.com/JWebMP/AngularMaterial.git
+[submodule "AngularColorPicker"]
+	path = AngularColorPicker
+	url = https://github.com/GedMarc/JWebMP-NgxColorPicker.git
