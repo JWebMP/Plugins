@@ -96,3 +96,6 @@
 [submodule "WebAwesome"]
 	path = WebAwesome
 	url = https://github.com/JWebMP/WebAwesome.git
+[submodule "WebAwesomePro"]
+	path = WebAwesomePro
+	url = https://github.com/JWebMP/WebAwesomePro.git
