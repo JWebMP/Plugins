@@ -93,3 +93,6 @@
 [submodule "AngularColorPicker"]
 	path = AngularColorPicker
 	url = https://github.com/GedMarc/JWebMP-NgxColorPicker.git
+[submodule "WebAwesome"]
+	path = WebAwesome
+	url = https://github.com/JWebMP/WebAwesome.git
